@@ -1,0 +1,818 @@
+/*font family style section start*/
+@font-face {
+  font-family: 'Norse';
+  src: 	url('./../font/Norse/Norse.eot?#iefix') format('embedded-opentype'),  
+  		url('./../font/Norse/Norse.otf')  format('opentype'),
+	    url('./../font/Norse/Norse.woff') format('woff'), 
+	    url('./../font/Norse/Norse.ttf')  format('truetype'), 
+	    url('./../font/Norse/Norse.svg#Norse') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Norse-Bold';
+  src: 	url('./../font/Norse-Bold/Norse-Bold.eot?#iefix') format('embedded-opentype'),  
+  		url('./../font/Norse-BoldNorse-Bold.otf')  format('opentype'),
+	    url('./../font/Norse-BoldNorse-Bold.woff') format('woff'), 
+	    url('./../font/Norse-BoldNorse-Bold.ttf')  format('truetype'), 
+	    url('./../font/Norse-BoldNorse-Bold.svg#Norse-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AquateScriptPERSONALUSEONLY';
+  src: 	url('./../font/AquateScript/AquateScriptPERSONALUSEONLY.eot?#iefix') format('embedded-opentype'), 
+	  	url('./../font/AquateScript/AquateScriptPERSONALUSEONLY.woff') format('woff'), 
+	  	url('./../font/AquateScript/AquateScriptPERSONALUSEONLY.ttf')  format('truetype'), 
+	  	url('./../font/AquateScript/AquateScriptPERSONALUSEONLY.svg#AquateScriptPERSONALUSEONLY') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Comfortaa-Light';
+  src: 	url('./../font/Comfortaa-Light/Comfortaa-Light.eot?#iefix') format('embedded-opentype'),  
+  		url('./../font/Comfortaa-Light/Comfortaa-Light.woff') format('woff'), 
+  		url('./../font/Comfortaa-Light/Comfortaa-Light.ttf')  format('truetype'), 
+  		url('./../font/Comfortaa-Light/Comfortaa-Light.svg#Comfortaa-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ComicSansMS';
+  src: 	url('./../font/ComicSansMS/ComicSansMS.eot?#iefix') format('embedded-opentype'),  
+		url('./../font/ComicSansMS/ComicSansMS.woff') format('woff'), 
+		url('./../font/ComicSansMS/ComicSansMS.ttf')  format('truetype'), 
+		url('./../font/ComicSansMS/ComicSansMS.svg#ComicSansMS') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+font-face {
+  font-family: 'Athelas-BoldItalic';
+  src: 	url('./../font/Athelas-BoldItalic/Athelas-BoldItalic.eot?#iefix') format('embedded-opentype'),  
+  		url('./../font/Athelas-BoldItalic/Athelas-BoldItalic.woff') format('woff'), 
+  		url('./../font/Athelas-BoldItalic/Athelas-BoldItalic.ttf')  format('truetype'), 
+  		url('./../font/Athelas-BoldItalic/Athelas-BoldItalic.svg#Athelas-BoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AmaticSC-Regular';
+  src: 	url('./../font/AmaticSC-Regular/AmaticSC-Regular.eot?#iefix') format('embedded-opentype'),  
+  		url('./../font/AmaticSC-Regular/AmaticSC-Regular.woff') format('woff'), 
+  		url('./../font/AmaticSC-Regular/AmaticSC-Regular.ttf')  format('truetype'), 
+  		url('./../font/AmaticSC-Regular/AmaticSC-Regular.svg#AmaticSC-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.norse
+	{
+		font-family: 'Norse';
+	}
+
+.norse-bold
+	{
+		font-family: 'Norse';
+		font-weight: 900;
+	}
+
+.aquate_script
+	{
+		font-family: 'AquateScriptPERSONALUSEONLY';
+	}
+
+.comfortaa-light
+	{
+		font-family: 'Comfortaa-Light';
+	}
+
+.comicsansms
+	{
+		font-family: 'ComicSansMS';
+	}
+
+.athelas-bold
+	{
+		font-family: 'Athelas-BoldItalic';
+	}
+.amatic_sc
+	{
+		font-family: 'AmaticSC-Regular';
+	}			
+/*font family style section end*/
+
+/*font size section*/
+.fs-12
+	{
+		font-size: 12px;
+	}
+.fs-14
+	{
+		font-size: 14px;
+	}	
+.fs-16
+	{
+		font-size: 16px;
+	}	
+.fs-18
+	{
+		font-size: 18px;
+	}
+.fs-21
+	{
+		font-size: 21px;
+	}	
+
+.fs-24
+	{
+		font-size: 24px;
+	}
+
+.fs-26
+	{
+		font-size: 26px;
+	}
+
+.fs-28
+	{
+		font-size: 28px;
+	}	
+
+.fs-30
+	{
+		font-size: 30px;
+	}
+
+.fs-35
+	{
+		font-size: 35px;
+	}
+
+.fs-50
+	{
+		font-size: 50px;
+	}			
+
+.fs-65
+	{
+		font-size: 65px;
+	}
+
+.text-black
+	{
+		color: #000000;
+	}	
+
+body, html
+	{
+		font-family: 'Norse', sans-serif;
+		font-weight: 500;
+		font-size: 16px;
+		color: #2D2D2D;
+	}	
+
+/*header section style start*/
+#Ad-section
+	{
+		background-color: #790813;
+	}
+
+#myheader
+	{
+		background-image: url(./../images/header_yellow_strip.png);
+		background-repeat: round;	    
+	    position: relative;
+	    background-size: cover;
+	    min-height: 100px;
+	}	
+/*header section style end*/
+
+/*banner section style start*/
+#Banner
+	{
+		background-image: url(./../images/homepage_banner.png);
+		min-height: 630px;	    
+	    margin-top: -100px;
+	    background-repeat:round;	
+	}
+
+#banner_content
+	{		
+	    margin-top: 160px;
+	    margin-top: 160px;
+	    flex-grow: 0;
+	    min-width: 497px;
+	    margin-left: 135px;
+	}	
+
+.banner_heading_color
+	{
+		color: #790813;
+	}
+
+#banner_btn
+	{
+		border: 3px solid #000000;	
+	    width: 220px;
+	    box-shadow: -2px 3px;
+	    border-radius: 0px;
+	}
+/*banner section style end*/
+
+/*info section style start*/
+.info-btn
+	{
+		background-color:#790813;
+	}
+
+.info_section_lower
+	{
+	    padding-left: 10rem;
+	}	
+/*info section style end*/	
+
+/*topseller section style start*/
+#top-seller-section
+	{
+		background-image: url(./../images/banner_image.jpg);
+		background-repeat: round;
+	    min-height: 550px;
+	    position: relative;	
+	    background-size: cover;    
+	}
+
+.top-seller-section_product
+	{
+		margin-top: -45px;
+	}
+
+.top_seller_img
+	{    
+	    height: 138px;
+	}
+
+.top-seller-padding
+	{
+		padding-left: 150px;
+	    padding-right: 150px;
+	}	
+/*topseller section style end*/
+
+/*about food section style start*/
+#about_food_section
+	{
+		background-image: url(./../images/food_fit_for_a_goddess_banner.jpg);
+		background-repeat: round;
+		min-height: 610px;
+		margin-top: -10px;	
+	}
+
+.food_section_content
+	{
+		padding-top: 90px;
+	    padding-left: 140px;
+	}
+
+#food_section_btn
+	{
+		border: 3px solid #000000;	
+	    width: 150px;
+	    box-shadow: -2px 3px;
+	    border-radius: 0px;
+	}		
+/*about food section style end*/
+
+/*product feature section style start*/
+.card
+	{
+		border: none;
+	}
+
+.card-img-top
+	{
+		height: 180px;
+		object-fit: contain;
+	}
+
+.product_feature_box
+	{
+		height: 200px;
+	    background-color: #f5f5f5;
+	    border-radius: 5px;
+	    height: 180px;
+	}	
+/*product feature section style end*/
+
+/*customers blog banner section start*/
+#customer_blog_section
+	{
+		background-image: url(./../images/what_your_customer_say_slider_left_arrow.jpg);
+		background-repeat: round;		
+		min-height: 610px;		 	
+	}
+.slide
+	{
+		margin-top: -55px;
+	}	
+
+.carousel-caption
+	{
+		position: relative;
+		text-align: left;
+	}
+
+.slider_blog_img
+	{
+		width: 213px;
+		margin-top: -25px;
+	}
+
+.slider_blog_caption
+	{
+		margin-left: -96px;
+	}
+
+.blog_btn
+	{
+		border-radius: 50%;
+		width: 50px;
+    	height: 50px;
+    	border: none;
+    	box-shadow: 4px 1px rgb(243, 212, 15);
+	}
+
+.blog_btn_1
+	{
+		box-shadow: -4px 1px white;
+	}					
+/*customers blog banner section end*/
+
+/*catalogue section style start*/
+.catalogue_circle
+	{
+		height: 100px;
+	  	width: 100px;
+	  	background-color: #555;
+	  	border-radius: 50%;
+	  	margin-left: 75px;
+	}
+
+.card-img-top_1
+	{
+		height: 55px;
+	    object-fit: contain;
+	    margin-top: 24px;
+	}
+
+.catalogue_circle_color
+	{
+		background-color: #4ce2b5
+	}
+
+.catalogue_circle_color_1
+	{
+		background-color: #ecb15fed
+	}
+
+.catalogue_circle_color_2
+	{
+		background-color: #ff9e9eed
+	}			
+/*catalogue section style end*/
+
+/*footer section style start*/
+#footer_section
+	{
+		background-image: url(./../images/footer_banner.jpg);
+		background-repeat: round;
+		min-height: 400px;	
+		background-size: cover;
+	}
+
+.footer_menu_style
+	{
+		list-style: none;
+	}
+
+.footer_section_menu
+	{
+	    padding-top: 85px;	  
+	}
+
+.footer_banner_icon
+	{
+	    height: 45px;
+	    padding-left: 20px;
+	    margin-top: 40px;
+	}	
+
+.footer_line
+	{
+		width: 99%;
+		background-color:white;
+	}
+
+#subscribe_btn
+	{
+		border: 3px solid #000000;	
+	    box-shadow: -2px 3px;
+	    width: 175px;
+	    border-radius: 0px;
+	    background-color: #950017;
+	}
+
+#input_box
+	{		
+	    width: 235px;
+	    box-shadow: -2px 3px #b1a8a9;
+	    border-radius: 0px;
+	    background-color: #544b4c;
+	}
+
+input:hover{
+    border: 2px solid #999;
+    color: #000;
+}	
+
+::placeholder 
+	{
+	  color: #b1a8a9;
+	  font-family: 'AmaticSC-Regular';
+	  font-size:16px; 
+	  text-align: start;
+	  font-weight: 900;
+	}
+
+.vertical_line 
+	{
+	    border-left: 1px solid #ffffff;
+	    height: 259px;
+	    position: absolute;
+	    margin-left: 371px;
+	}	
+
+.vertical_line_1
+	{
+	    border-left: 1px solid #ffffff;
+	    height: 259px;
+	    position: absolute;
+	    margin-left: 653px;
+	}
+/*footer section style end*/
+
+
+/*media query section start*/
+@media (min-width:1200px){
+	.site_logo{
+		display: none;
+	}
+
+}
+
+@media (min-width:992px) and (max-width: 1199px) {
+	#info_section {
+		padding-bottom: 30px;
+	}
+
+	.info_section_lower {
+	    padding-left: 5rem;
+	}
+
+	.top_seller_img {
+    	height: 109px;
+	}
+
+	#top-seller-section {    
+    	min-height: 530px;    
+	}
+
+	.about_food_section_heading {
+		font-size: 44px;
+	}
+
+	.about_food_section_caption {
+		font-size: 11px;
+	}
+
+	#about_food_section {
+		min-height: 586px;
+	}
+
+	.catalogue_circle {
+		margin-left: 50px;
+	}
+
+	.catalogue_section_caption {
+		font-size: 12px;
+	}
+
+	.site_logo{
+		display: none;
+	}
+
+	.vertical_line{
+		display: none;
+	}
+
+	.vertical_line_1{
+		display: none;
+	}
+}
+	
+
+@media (min-width:768px) and (max-width: 991px) {
+	#info_section {
+		padding-bottom: 40px;
+	}
+
+	.info_section_lower {
+	    padding-left: 2rem;
+	}
+
+	.info_section_detail {
+		font-size: 12px;
+	}
+
+	.info_section_heading {
+    	font-size: 35px;
+	}
+
+	#info_section_lower_row {
+		padding-top: 35px;
+	}
+
+	.top_seller_img {
+    	height: 73px;
+	}
+
+	.top_seller_heading {
+		font-size: 14px;
+	}
+
+	#top-seller-section{    
+    	min-height: 455px;    
+	}
+
+	.top_seller_top_heading{
+		font-size: 32px;
+	}
+
+	.about_food_section_heading {
+		font-size: 44px;
+	}
+
+	.about_food_section_caption {
+		font-size: 11px;
+	}
+
+	.food_section_content{
+		padding-left: 0px !important;
+		padding-top: 45px;
+	}
+
+	#about_food_section{
+		min-height: 485px;
+	}
+
+	.catalogue_section_caption {
+		font-size: 8px;
+	}
+
+	.catalogue_circle {
+		margin-left: 25px;
+	}
+
+	.banner_heading{
+		font-size: 20px;
+	}
+
+	.slider_blog_img {
+    	width: 120px;
+    	margin-top: -2px;
+	}
+
+	.slider_blog_caption {
+        font-size: 17px;
+	}
+
+	.blog_btn {    
+	    margin-top: 75px;
+	}
+
+	.header_logo {
+	display: none;
+	}
+
+	#myheader {
+    background-color: #FCC917 !important;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    min-height: 100px;
+    background-image: none;
+	}
+
+	.vertical_line{
+		display: none;
+	}
+
+	.vertical_line_1{
+		display: none;
+	}
+
+	.footer_menu_style_font{
+		font-size:14px;
+	}
+
+}
+
+@media (min-width:576px) and (max-width: 767px) {
+
+#banner_content
+	{		    
+	    margin-left: 40px;
+	}
+
+.info_section_detail {
+		font-size: 16px;
+	}
+
+.info_section_heading {
+    font-size: 35px;
+	}
+
+.info_section_lower {
+	    padding-left: 0rem;
+	}
+
+.info_vanilla_section {
+	padding-left: 0rem !important;
+	text-align: center; 
+	}
+.info_section_lower{
+	text-align: center;
+}		
+
+.top_seller_top_heading {
+		font-size: 28px;
+	}
+
+.food_section_content {
+		padding-left: 0px !important;
+	}	
+
+#top-seller-section {    
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 75px;    
+	}
+.about_food_section_heading {
+	font-size: 40px;
+}
+
+.food_section_content {
+		padding-left: 0px !important;
+		padding-top: 35px;
+		text-align: center;
+	} 
+
+.catalogue_circle {
+		margin-left: 205px;
+	}
+
+#subscribe_btn {
+	margin-bottom: 22px;
+    margin-left: 50px;
+}
+
+.slider_blog_img {
+    width: 124px;
+    margin-top: -70px;
+    margin-left: 110px;
+}
+
+.slider_blog_caption {
+        font-size: 15px;
+        margin-left: 60px;
+	}
+
+.header_logo{
+	display: none;
+}
+
+#myheader {
+    background-color: #FCC917 !important;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    min-height: 100px;
+    background-image: none;
+}
+
+.vertical_line{
+		display: none;
+	}
+
+	.vertical_line_1{
+		display: none;
+	}
+}
+
+@media (min-width:59px) and (max-width: 575px){
+#banner_content
+	{		    
+	    margin-left: -45px;
+	}
+
+.banner_heading {
+		font-size: 38px;
+	}
+
+.banner_heading_lower {
+	font-size: 12px;
+}
+
+.banner_caption {
+	font-size: 10px;
+}
+
+.info_section_lower {
+	    padding-left: 0rem;
+	}
+
+.info_vanilla_section {
+	padding-left: 0rem !important; 
+	text-align: center;
+	}
+
+.info_section_lower {
+	text-align: center;
+}		
+
+.top_seller_top_heading {
+		font-size: 24px;
+	}
+
+#top-seller-section {    
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 75px;    
+	}
+
+.about_food_section_heading {
+	font-size: 40px;
+   }
+
+.food_section_content {
+		padding-left: 0px !important;
+		padding-top: 35px;
+		text-align: center;
+	} 
+
+.catalogue_circle {
+		margin-left: 130px;
+	}	
+
+#subscribe_btn {
+	margin-bottom: 17px;
+    margin-left: 50px;
+	}
+
+.slider_blog_img {
+    width: 100px;
+    margin-top: -90px;
+    margin-left: 78px;
+}	
+
+.slider_blog_caption {
+        font-size: 13px;
+        margin-left: 8px;
+	}
+
+.header_logo {
+	display: none;
+}	
+
+#myheader {
+    background-color: #FCC917 !important;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    min-height: 100px;
+    background-image: none;
+}
+
+.vertical_line{
+		display: none;
+	}
+
+	.vertical_line_1{
+		display: none;
+	}	 							
+}	
